@@ -1,0 +1,45 @@
+﻿{
+    "RECORDS": [{
+            "id": "219636464437166080",
+            "icon": "none",
+            "imgPath": "https://gytblog.oss-cn-shenzhen.aliyuncs.com/ctyun/banner-1.png",
+            "resourceId": "219636464449748992",
+            "name": "919大会",
+            "state": "online",
+            "domain": "home",
+            "displayOrder": "0",
+            "domainName": "首页",
+            "type": "banner"
+        },
+        {
+            "domain": "home",
+            "domainName": "首页",
+            " href": "https://www.ctyun.cn/activity/#/201909/disk",
+            "imgPath": "https://gytblog.oss-cn-shenzhen.aliyuncs.com/ctyun/banner-2.png",
+            "id": "213322335912984576",
+            "name": "9月秒杀专场-云硬盘1折",
+            "note": "立即秒杀",
+            "resourceId": "213322335921373184",
+            "state": "online",
+            "subtitle": "每月1-2款商品千台放量！不限时1折秒杀！",
+            "title": "9月秒杀专场-云硬盘1折",
+            "type": "banner"
+        },
+        {
+            "icon": "none",
+            "state": "online",
+            "domainName": "首页",
+            "type": "banner",
+            "id": "158095657922461696",
+            "resourceId": "158095657926656000",
+            "imgPath": "https://gytblog.oss-cn-shenzhen.aliyuncs.com/ctyun/banner-3.png",
+            "title": "云创校园--开学季",
+            "name": "云创校园banner",
+            "subtitle": "学生上云每月仅需9.9元",
+            "domain": "home",
+            "displayOrder": "2",
+            "href": "https://www.ctyun.cn/activity/#/campus",
+            "note": "查看详情"
+        }
+    ]
+}

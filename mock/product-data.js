@@ -1,0 +1,139 @@
+/**
+ ** @Description：
+ ** @Author：yt.gan<ganyutao@chinatelecom.cn>
+ ** @Date: 2019/10/4 17:29
+ **/
+
+const arr = [{
+    name: '计算',
+    products: [{
+        title: '弹性云主机',
+        desc: '安全、可弹性伸缩且易管理的云服务器',
+        link: '/ctyun/product-cloud',
+        ktlink: '/ctyun/buy-cloud',
+        promotion: true,
+    }, {
+        title: 'GPU云主机',
+        desc: '强大的计算能力，轻松处理高性能计算场景',
+        link: '/ctyun/product-gpu',
+        new: true,
+    }, {
+        title: '物理机',
+        desc: '性能卓越、资源独享、安全可靠的专用物理服务',
+        link: '/ctyun/product-dps',
+    }, {
+        title: '云容器引擎',
+        desc: '支持微服务构架，安全兼容Kubernetes和Docker',
+        link: '/ctyun/product-yrq',
+        new: true,
+    }, {
+        title: '云桌面',
+        desc: '基于云计算的灵活、低成本、运维简单的桌面服务',
+        link: '/ctyun/product-desktop_cloud',
+    }, {
+        title: '弹性伸缩服务',
+        desc: '自动调整弹性计算资源的管理服务',
+        link: '/ctyun/product-as',
+    }],
+}, {
+    name: '存储',
+    products: [{
+        title: '对象存储',
+        desc: '高品质、低成本的全国范围内无限存储服务',
+        link: '/ctyun/product-oos',
+    }, {
+        title: '云硬盘',
+        desc: '多副本数据实时同步，最大IOPS高达2万的块级存储',
+        link: '/ctyun/product-evs',
+        ktlink: '/ctyun/buy-evs',
+    }, {
+        title: '弹性文件服务',
+        desc: '低成本、可扩展的共享文件存储服务',
+        link: '/ctyun/product-txwj',
+    }, {
+        title: '云存储网关',
+        desc: '无缝云接入，统一管理的混合云存储',
+        link: '/ctyun/product-ywg',
+    }, {
+        title: '云备份',
+        desc: '内嵌Verita NBU技术，实现数据异地备份保护',
+        link: '/ctyun/product-ybf',
+        ktlink: '/ctyun/buy-ybf',
+    }, {
+        title: '云硬盘备份',
+        desc: '为云主机系统盘和数据盘提供备份，保障业务安全',
+        link: '/ctyun/product-vbs',
+    }],
+}, {
+    name: '云网融合',
+    products: [{
+        title: '云间高速',
+        desc: '高可靠的跨云资源池的网络连接服务',
+        link: '/ctyun/product-yjgs',
+        ktlink: '/ctyun/buy-yjgs',
+        new: true,
+    }, {
+        title: '云专线',
+        desc: '客户到云的高品质专线或专网服务',
+        link: '/ctyun/product-cda',
+    }, {
+        title: '云网关',
+        desc: '客户侧政企网关到云资源池之间的安全通道',
+        link: '/ctyun/product-gateway',
+        new: true,
+    }, {
+        title: '虚拟私有云',
+        desc: '用户自主配置和管理的云内虚拟网络环境',
+        link: '/ctyun/product-vpc',
+        ktlink: '/ctyun/buy-vpc',
+    }, {
+        title: '弹性负载均衡',
+        desc: '将访问流量自动分发到多台云主机',
+        link: '/ctyun/product-elb',
+    }],
+}, {
+    name: '安全',
+    products: [{
+        title: 'Anti-DDoS流量清洗',
+        desc: '四层到七层的DDoS攻击防护能力',
+        link: '/ctyun/product-antiddos',
+    }, {
+        title: 'Web应用防火墙',
+        desc: '多维度防御策略为网站安全保驾护航',
+        link: '/ctyun/product-Web',
+        new: true,
+    }, {
+        title: '服务器安全卫士',
+        desc: '全面检测和防护服务器，提供及时通知和定期报告',
+        link: '/ctyun/product-fwqaq',
+        ktlink: '/ctyun/buy-fwqaq',
+        new: true,
+    }, {
+        title: '漏洞扫描',
+        desc: '公网和内网资产漏洞扫描，提供检测报告和修复建议',
+        link: '/ctyun/product-ldsm',
+        new: true,
+    }, {
+        title: '渗透测试',
+        desc: '应用系统安全检测，提供测试报告和加固建议',
+        link: '/ctyun/product-stcs',
+        new: true,
+    }, {
+        title: '云堡垒机',
+        desc: '对运维权限、运维行为进行管理和审计',
+        link: '/ctyun/product-blj',
+        new: true,
+    }, {
+        title: '网页防篡改',
+        desc: '防止web站点目录被非法篡改和破坏',
+        link: '/ctyun/product-wyfcg',
+        new: true,
+    }, {
+        title: '日志审计',
+        desc: '日志全生命周期管理',
+        link: '/ctyun/product-rzsj',
+        new: true,
+    }],
+}];
+
+export default arr;
